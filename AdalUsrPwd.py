@@ -30,7 +30,7 @@ if __name__ == '__main__':
     print(r.status_code)
     print(r.text)
 
-    # Fetch API data from EDP Q/A system    
+    # Fetch API data from  Azure application    
     print(r.content)
     input("\n\nPress the enter key to exit.")  
 
