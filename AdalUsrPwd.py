@@ -20,7 +20,7 @@ if __name__ == '__main__':
     access_token = token['accessToken']
     print("Token ready.")
 
-    # Call EDP via API URL with the valid access token in Authorization header
+    # Call Azure application via API URL with the valid access token in Authorization header
     endpoint = config.resource + '/api/' + config.api_data       
     bearer_token = access_token
     r = requests.get(endpoint,headers={"Authorization":"Bearer " + bearer_token})
